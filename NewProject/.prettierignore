@@ -1,0 +1,14 @@
+# Игнорировать артефакты сборки
+build
+dist
+coverage
+
+# Игнорировать все HTML файлы
+*.html
+
+# Игнорировать node_modules
+node_modules
+
+# Игнорировать файлы пакетного менеджера
+package-lock.json
+yarn.lock
