@@ -1,0 +1,25 @@
+# Временные файлы Cocos Creator
+library/
+temp/
+local/
+build/
+
+# Зависимости
+node_modules/
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Файлы IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Файлы ОС
+.DS_Store
+Thumbs.db
