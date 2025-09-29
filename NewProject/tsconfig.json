@@ -7,10 +7,6 @@
     "skipLibCheck": true,
     "outDir": "temp/vscode-dist",
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
-    "paths": {
-      "assets/*": ["assets/*"]
-    }
   },
   "exclude": [
     "node_modules",

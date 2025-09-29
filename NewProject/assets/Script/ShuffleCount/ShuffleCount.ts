@@ -1,7 +1,7 @@
 const { ccclass, property } = cc._decorator;
 
-@ccclass('StepsCounter')
-export class StepsCount extends cc.Component {
+@ccclass('ShuffleCount')
+export class ShuffleCount extends cc.Component {
     @property(cc.Label)
     label: cc.Label = null;
 
@@ -15,7 +15,10 @@ export class StepsCount extends cc.Component {
         if (this.label) {
             this.label.string = value.toString();
         } else {
-            cc.warn('[StepsCounter] label is null');
+            cc.warn('[ShuffleCount] label is null');
+        }
+        if (value == 0) {
+            this.node.parent.opacity = 120;
         }
     }
 }
